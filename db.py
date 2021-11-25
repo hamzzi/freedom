@@ -12,13 +12,13 @@ class Manager:
         self.generate_only = generate_only
         self.index = index
 
-        if generate_only:
-            if os.path.exists(output_dir):
-                shutil.rmtree(output_dir)
-            os.mkdir(output_dir)
-            self.output_dir = output_dir
-        else:
-            pass
+        # if generate_only:
+        #     if os.path.exists(output_dir):
+        #         shutil.rmtree(output_dir)
+        #     os.mkdir(output_dir)
+        #     self.output_dir = output_dir
+        # else:
+        #     pass
 
     def fn(self):
         return "{}-{}".format(self.index, int(time.time() * 100))

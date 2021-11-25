@@ -1,3 +1,6 @@
+import os, sys
+sys.path.append("tools/freedom")
+
 from config import TreeConfig, GlobalConfig
 from document import Document
 from utils.random import Random
