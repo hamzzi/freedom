@@ -8,8 +8,8 @@ from utils.random import Random
 
 
 def try_catch(s):
-    # return "try {{ {}; }} catch (e) {{ console.log(e.message); }}\n".format(s)
-    return "try {{ {}; }} catch (e) {{ }}\n".format(s)
+    return "try {{ {}; }} catch (e) {{ console.log(e.message); }}\n".format(s)
+    # return "try {{ {}; }} catch (e) {{ }}\n".format(s)
 
 
 class Function(Object):

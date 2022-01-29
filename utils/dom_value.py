@@ -95,7 +95,10 @@ def index():
 # Url
 ##################################
 def frame_url():
-    return "data:text/html,foo"
+    # return "data:text/html,foo"
+    url = Random.choice(["data:text/html,foo", "<iframerc>"])
+    return url
+    
 
 
 def image_url():
